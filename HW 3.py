@@ -30,7 +30,7 @@ print("Anna has {0} apples and {1} peaches".format(3, 5))
 print("Anna has {apple} apples and {peach} peaches".format(apple = 3, peach = 5))
 
 # 8*. With indicators of field size (5 chars for the first and 3 for the second)
-print("Anna has {0:4} apples and {1:2} peaches".format(3, 5))
+print("Anna has {0:5} apples and {1:3} peaches".format(3, 5))
 
 # 9. With f-strings and variables
 a = 3
